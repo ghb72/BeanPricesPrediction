@@ -1,0 +1,4 @@
+Format Name
+Type_Number_Epoch_LRate_SeqLengh_ValLoss.keras
+Example:
+simple_1_40_0.001_15_0.68.keras A model with 0.68 of validation loss

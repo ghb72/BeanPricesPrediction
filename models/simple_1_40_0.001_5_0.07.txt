@@ -1,0 +1,4 @@
+For model simple_1_40_0.001_5_0.07 
+With Params: epochs 40, learning rate 0.001, sequence lenght 5 
+Has losses: Loss 0.03021915629506111, Validation Loss 0.07 
+['rain' 'evap' 't_max' 't_min' 'price']

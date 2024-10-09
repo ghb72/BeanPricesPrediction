@@ -1,0 +1,103 @@
+﻿body { margin-top: 8px; padding-top: 0px; } /*overwrite site.css*/
+h1 {font-size:small;background-color:#ebeff9;padding:0.5em;border-top:solid 1px #6b90da;font-weight:bold;}
+h3 {font-size:small;background-color:#ebeff9;padding:0.5em;margin-bottom:0.25em;margin-top:0.5em;font-weight:bold;}
+a {text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.tc {border:1px solid #f5f5f5;font-size:smaller;}
+.tc h3 {font-size:inherit;}
+.tc a {padding-left:5px;}
+/*.ts {font-size:x-small;}
+.ts {font-size:inherit;}*/
+.ad {text-align:center;margin-top: 5px; }
+.tblData th { padding:2px 2px; }
+.tblData td { padding:2px 2px; }
+
+#nav {padding:6px 8px 6px 8px;border-top:solid 1px #6B90DA;border-bottom:solid 1px #6B90DA;background:#E5ECF9;}
+#header > hr {display:none}
+
+.sidePanel {border:1px solid #e6e6e6;width:300px;margin:5px 0px}
+.sidePanel h5 {font-weight:bold;}
+.midPanel p {margin-left:0.5em;margin-right:0.5em;}
+#rightpane { width:300px; }
+
+#lblRange, #lblPct {font-size:smaller;}
+#divRange, #divPct {padding-left:8px;padding-right:8px;}
+
+#divDaily h1 {margin-bottom:0.25em;}
+#divDaily > h1 {padding:5px 5px 8px 8px;margin-top:5px;}
+.dailyPrice {padding-left:5px;font-size:2.25em;font-weight:bold;}
+.dailyText p {margin-top:0;}
+#divMonthly > h1 {font-weight:bold;margin-top:5px;font-size:small;}
+#gridTools {text-align:center;}
+
+#panelNews > h3 {font-weight:bold;}
+#futuresPanel h1 {margin-bottom:0.25em;}
+#futuresPanel .dailyText {float:left;margin:0 20px 0 5px;}
+#futuresPanel table {font-size:smaller;border-collapse:collapse;}
+#producers_lblSection {font-weight:bold;}
+#producers_panelCompanies td {margin-left:0.25em;margin-right:0.25em;}
+
+.survey legend {border:none;padding:2px;margin:0px;width:auto;font-size:xx-small;font-family:Verdana;}
+.survey fieldset {padding:5px;margin:0px 2px;border:1px solid #c0c0c0;}
+#survey_commodity {max-width:200px;}
+
+@media print { 
+    #header {display:none;}
+    #nav {display:none;}
+    #leftpane {display:none;}
+    #rightpane {display:none;}
+    #tools {display:none;}
+    #linkInvert {display:none;}
+    #frameComment {display:none;}
+    #footer {display:none;}
+    #gridTools {display:none;}
+    #subscribe {display:none;}
+    #lblMessage {display:none;}
+    .ad {display:none;}
+    body {margin:0;padding:0;border:0;}
+}
+
+/*Override bootstrap*/
+.container-fluid { 
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-brand {padding:5px;}
+
+/*.side-menu .panel{
+    border: 0px none;
+    margin-bottom: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    box-shadow: none;
+}*/
+
+/*.side-menu .caret {
+    float: right;
+    margin: 9px 5px 0px;
+}*/
+
+@media (min-width: 768px) {
+    .navbar-toggle { display: inline; }
+    .col-sm-6 {width:100%;}
+}
+
+@media (min-width: 1024px) { .navbar-toggle { display: none; } }
+
+@media (min-width: 1280px) {
+    .col-lg-8 {width:68%;}
+    .col-lg-4 {width:300px;padding-left:0px;padding-right:0px;}
+}
+
+@media (min-width: 1366px) { .col-lg-8 {width:70%;} }
+
+@media (min-width: 1600px) { .col-lg-8 {width:75%;} }
+
+@media (min-width: 1920px) { .col-lg-8 {width:80%;} }
+
+.col-xs-12, .col-sm-6, .col-lg-8 {
+    padding-left: 5px;
+    padding-right: 5px;
+}

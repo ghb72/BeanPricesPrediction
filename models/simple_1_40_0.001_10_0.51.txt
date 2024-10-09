@@ -1,0 +1,6 @@
+For model simple_1_40_0.001_10_0.51 
+With Params: epochs 40, learning rate 0.001, sequence lenght 10 
+Has losses: Loss 0.004015438258647919, Validation Loss 0.51 
+['rain' 'evap' 't_max' 't_min' 'price' 'rain_mean' 'evap_mean'
+ 't_max_mean' 't_min_mean' 'rain_sum' 'evap_sum' 't_max_sum' 't_min_sum'
+ 'rain_std' 'evap_std' 't_max_std' 't_min_std']

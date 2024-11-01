@@ -132,7 +132,7 @@ def weather_plots():
 
 
 # PAGE STRUCTURE
-st.title('Bayo Bean Prices Prediction' )
+st.title('Bayo Bean Prices Forecasting' )
 st.header('Second Version with better models')
 st.text('''
         This is a ML learning app to predict the prices of the Bayo Bean for the principal
